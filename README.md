@@ -5,10 +5,10 @@
 
 <p>
   <img align="right" width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/74818046-7326-4142-b077-08de21cd0cbf" />
-  <samp>Hi there! I'm <b>Weipeng</b>.</samp><br>
-  <samp>I'm a PhD student at <a href="https://hkust.edu.hk/">HKUST</a> in Hong Kong, China.</samp><br>
-  <samp>I'm interested in <b>Computational Mechanics</b>, <b>Inverse problems</b> and <b>Software Development</b>.</samp><br>
-  <samp>A passion for <b>elegant</b> systems is my inner compass.</samp><br>
+  <samp>👋 Hi there! I'm <b>Weipeng</b>.</samp><br>
+  <samp>🎓 I'm a PhD student at <a href="https://hkust.edu.hk/">HKUST</a> in Hong Kong, China.</samp><br>
+  <samp>📖 I'm interested in <b>Computational Mechanics</b>, <b>Inverse problems</b> and <b>Software Development</b>.</samp><br>
+  <samp>🚀 A passion for <b>elegant</b> systems is my inner compass.</samp><br>
 </p>
 
 <hr>
