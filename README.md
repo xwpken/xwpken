@@ -9,7 +9,7 @@
   <samp>🎓 I'm a PhD Candidate at <a href="https://hkust.edu.hk/">HKUST</a> in Hong Kong, China.</samp><br>
   <samp>📖 I'm interested in <b>Computational Mechanics</b> and <b>Inverse problems</b>.</samp><br>
   <samp>👨‍💻 I'm also keenly involved in <b>Software development</b>.</samp><br>
-  <samp>🚀 A passion for <b>elegant</b> systems is my inner compass.</samp><br>
+  <samp>🚀 A passion for <b>efficient</b> and <b>elegant</b> systems is my inner compass.</samp><br>
 </p>
 
 <hr>
