@@ -4,7 +4,7 @@
 <hr> -->
 
 <p>
-  <img align="right" width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/74818046-7326-4142-b077-08de21cd0cbf" />
+  <img align="right" width="200" height="200" alt="image" src="https://github.com/xwpken/xwpken.github.io/blob/main/assets/img/logo.png" />
   <samp>👋 Hi there! I'm <b>Weipeng</b>.</samp><br>
   <samp>🎓 I'm a PhD Candidate at <a href="https://hkust.edu.hk/">HKUST</a> in Hong Kong, China.</samp><br>
   <samp>📖 I'm interested in <b>Computational Mechanics</b> and <b>Inverse problems</b>.</samp><br>
