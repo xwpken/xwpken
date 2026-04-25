@@ -18,7 +18,7 @@
   <a href="https://xwpken.github.io">
     <img align="left" alt="Personal Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlechrome.svg" />
   </a>
-  <a href="https://xwpken.github.io">
+  <a href="https://xwpken.github.io/blog">
     <img align="left" alt="Blog" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rss.svg" />
   </a>
   <a href="https://scholar.google.com/citations?user=wNQmcPEAAAAJ">
