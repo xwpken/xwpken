@@ -16,16 +16,22 @@
 
 <p>
   <a href="https://xwpken.github.io">
-    <img align="left" alt="Personal Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/safari.svg" />
+    <img align="left" alt="Personal Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlechrome.svg" />
+  </a>
+  <a href="https://xwpken.github.io">
+    <img align="left" alt="Blog" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rss.svg" />
   </a>
   <a href="https://scholar.google.com/citations?user=wNQmcPEAAAAJ">
-    <img align="left" alt="Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/googlescholar.svg" />
+    <img align="left" alt="Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" />
   </a>
   <a href="https://www.researchgate.net/profile/Weipeng-Xu-4">
-    <img align="left" alt="ResearchGate" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/researchgate.svg" />
+    <img align="left" alt="ResearchGate" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/researchgate.svg" />
+  </a>
+  <a href="https://www.linkedin.com/in/weipeng-xu-201028403">
+  <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" />
   </a>
   <a href="mailto:me.xu@outlook.com">
-    <img align="left" alt="Outlook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/microsoftoutlook.svg" />
+    <img align="left" alt="Outlook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftoutlook.svg" />
   </a>
 </p>
 
