@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Weipeng Xu</title>
+  <desc id="desc">Differentiable Physics and Computational Mechanics</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071426" />
+      <stop offset="0.52" stop-color="#102A4C" />
+      <stop offset="1" stop-color="#0B5D67" />
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#5EEAD4" />
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#94A3B8" stroke-opacity="0.09" stroke-width="1" />
+    </pattern>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+    <clipPath id="round">
+      <rect width="1200" height="360" rx="28" />
+    </clipPath>
+    <style>
+      .mesh-flow { stroke-dasharray: 7 11; animation: mesh-flow 8s linear infinite; }
+      .contour-a { stroke-dasharray: 18 12; animation: contour-flow 7s linear infinite; }
+      .contour-b { stroke-dasharray: 10 14; animation: contour-flow 10s linear infinite reverse; }
+      .node { animation: node-pulse 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .node:nth-child(3n + 1) { animation-delay: -0.7s; }
+      .node:nth-child(3n + 2) { animation-delay: -1.5s; }
+      .node:nth-child(3n) { animation-delay: -2.3s; }
+      .orb-a { animation: drift-a 9s ease-in-out infinite alternate; }
+      .orb-b { animation: drift-b 12s ease-in-out infinite alternate; }
+      .accent-line { animation: accent-pulse 3.4s ease-in-out infinite; transform-origin: left center; }
+      .intro { animation: text-breathe 5s ease-in-out infinite; }
+      .name { animation-delay: -1s; }
+      .tagline { animation-delay: -2s; }
+      .topics { animation-delay: -3s; }
+
+      @keyframes mesh-flow { to { stroke-dashoffset: -180; } }
+      @keyframes contour-flow { to { stroke-dashoffset: -240; } }
+      @keyframes node-pulse {
+        0%, 100% { opacity: .55; transform: scale(.75); }
+        50% { opacity: 1; transform: scale(1.7); }
+      }
+      @keyframes drift-a { to { transform: translate(-45px, 30px) scale(1.12); } }
+      @keyframes drift-b { to { transform: translate(55px, -20px) scale(.9); } }
+      @keyframes accent-pulse {
+        0%, 100% { opacity: .75; transform: scaleX(.72); }
+        50% { opacity: 1; transform: scaleX(1); }
+      }
+      @keyframes text-breathe { 0%,100% { opacity: .92; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="360" fill="url(#background)" />
+    <rect width="1200" height="360" fill="url(#glow)" />
+    <rect width="1200" height="360" fill="url(#grid)" />
+
+    <circle class="orb-a" cx="1010" cy="82" r="116" fill="#22D3EE" opacity="0.08" filter="url(#blur)" />
+    <circle class="orb-b" cx="885" cy="305" r="132" fill="#2DD4BF" opacity="0.08" filter="url(#blur)" />
+
+    <!-- A finite-element-inspired mesh -->
+    <g class="mesh-flow" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1.2">
+      <path d="M738 50L835 28L928 67L1032 37L1136 78M738 50L778 137L882 108L974 151L1081 118L1136 78M778 137L720 223L829 252L882 108M882 108L829 252L952 221L974 151M974 151L952 221L1060 286L1081 118M1081 118L1172 190L1060 286M720 223L756 332L829 252M829 252L918 337L952 221M952 221L918 337L1060 286L1141 342" />
+      <path d="M738 50L882 108L928 67M835 28L882 108M928 67L974 151L1032 37M1032 37L1081 118M1136 78L1172 190M720 223L829 252L778 137M952 221L1081 118M1060 286L1172 190M756 332L918 337M918 337L1141 342" />
+    </g>
+
+    <g fill="#BAE6FD">
+      <circle class="node" cx="738" cy="50" r="3" /><circle class="node" cx="835" cy="28" r="3" /><circle class="node" cx="928" cy="67" r="3" />
+      <circle class="node" cx="1032" cy="37" r="3" /><circle class="node" cx="1136" cy="78" r="3" /><circle class="node" cx="778" cy="137" r="3" />
+      <circle class="node" cx="882" cy="108" r="3" /><circle class="node" cx="974" cy="151" r="3" /><circle class="node" cx="1081" cy="118" r="3" />
+      <circle class="node" cx="720" cy="223" r="3" /><circle class="node" cx="829" cy="252" r="3" /><circle class="node" cx="952" cy="221" r="3" />
+      <circle class="node" cx="1172" cy="190" r="3" /><circle class="node" cx="1060" cy="286" r="3" /><circle class="node" cx="756" cy="332" r="3" />
+      <circle class="node" cx="918" cy="337" r="3" /><circle class="node" cx="1141" cy="342" r="3" />
+    </g>
+
+    <!-- Contour curves -->
+    <g fill="none" stroke-linecap="round">
+      <path class="contour-a" d="M686 299C752 275 783 282 839 302C908 327 967 316 1028 294C1085 273 1133 276 1190 303" stroke="#5EEAD4" stroke-opacity="0.55" stroke-width="2" />
+      <path class="contour-b" d="M675 318C742 294 786 305 838 323C899 344 967 340 1034 314C1091 292 1142 299 1198 324" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="1.5" />
+    </g>
+
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+      <text class="intro" x="72" y="84" fill="#7DD3FC" font-size="17" font-weight="650" letter-spacing="4">DIFFERENTIABLE PHYSICS · COMPUTATIONAL MECHANICS</text>
+      <text class="intro name" x="68" y="174" fill="#F8FAFC" font-size="68" font-weight="750" letter-spacing="-2">Weipeng Xu</text>
+      <rect class="accent-line" x="72" y="204" width="104" height="5" rx="2.5" fill="url(#accent)" />
+      <text class="intro tagline" x="72" y="257" fill="#CBD5E1" font-size="23" font-weight="450" letter-spacing="0.15">Physics, computation, and optimization.</text>
+      <text class="intro topics" x="72" y="306" fill="#94A3B8" font-size="16" font-weight="450" letter-spacing="1.2">SIMULATION · INVERSE PROBLEMS · SCIENTIFIC MACHINE LEARNING · ROBOTICS</text>
+    </g>
+  </g>
+</svg>

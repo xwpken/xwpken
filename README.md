@@ -1,38 +1,50 @@
-<!-- <p><samp>Hi there! I'm <b>Felipe</b>.</samp></p>
-<p><samp>I'm a <b>Computer Science</b> undergraduate student at <a href="http://www.unisinos.br/">UNISINOS</a> in São Leopoldo, <b>Brazil</b>.</samp></p>
-<p><samp>I'm passionate about <b>Competitive Programming</b>, <b>Web Development</b> and <b>Open Source</b>.</samp></p>
-<hr> -->
+<div align="center">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Weipeng Xu — Differentiable Physics and Computational Mechanics" />
+</div>
+
+<div align="center">
+  <a href="https://xwpken.github.io"><img src="https://img.shields.io/badge/Website-0F172A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Personal website" /></a>
+  <a href="https://scholar.google.com/citations?user=wNQmcPEAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Google Scholar" /></a>
+  <a href="https://www.researchgate.net/profile/Weipeng-Xu-4"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white" alt="ResearchGate" /></a>
+  <a href="https://www.linkedin.com/in/weipeng-xu-201028403"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</div>
+
+## Hello, I'm Weipeng 👋
+
+I'm a PhD candidate in **Civil Engineering at [HKUST](https://hkust.edu.hk/)**, working on **differentiable physics** under the guidance of [Prof. Tianju Xue](https://scholar.google.com/citations?user=F2g2u0wAAAAJ).
+
+I develop computational methods that connect physical modeling, numerical simulation, and gradient-based optimization. My current interests span nonlinear mechanics, inverse problems, scientific machine learning, and robotic systems.
+
+## Research interests
+
+<div align="center">
+  <img src="./assets/research-cards.svg" width="100%" alt="Research interests: differentiable physics, computational mechanics, and inverse design and control" />
+</div>
+
+
+## GitHub at a glance
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&theme=default&bg_color=00000000" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000" alt="Weipeng's GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&theme=github_dark&bg_color=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&theme=default&bg_color=00000000" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&bg_color=00000000" alt="Most used languages" />
+  </picture>
+</div>
+
+## Let's connect
+
+I'm always happy to discuss research, open-source scientific software, or potential collaborations.
 
 <p>
-  <img align="right" width="200" height="200" alt="image" src="https://github.com/xwpken/xwpken.github.io/blob/main/assets/img/logo.png" />
-  <samp>👋 Hi there! I'm <b>Weipeng</b>.</samp><br>
-  <samp>🎓 I'm a PhD candidate in Civil Engineering at <a href="https://hkust.edu.hk/">HKUST</a> in Hong Kong, China.</samp><br>
-  <samp>📖 I'm interested in <b>Computational Mechanics</b> and <b>Inverse problems</b>.</samp><br>
-  <samp>👨‍💻 I'm also keenly involved in <b>Scientific Machine Learning</b>.</samp><br>
-  <samp>🚀 A passion for <b>efficient</b> and <b>elegant</b> systems is my inner compass.</samp><br>
+  <a href="mailto:wxuby@connect.ust.hk"><img src="https://img.shields.io/badge/Email-wxuby%40connect.ust.hk-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
 </p>
 
-<hr>
-
-<p>
-  <a href="https://xwpken.github.io">
-    <img align="left" alt="Personal Website" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlechrome.svg" />
-  </a>
-  <a href="https://xwpken.github.io/blog">
-    <img align="left" alt="Blog" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/rss.svg" />
-  </a>
-  <a href="https://scholar.google.com/citations?user=wNQmcPEAAAAJ">
-    <img align="left" alt="Google Scholar" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" />
-  </a>
-  <a href="https://www.researchgate.net/profile/Weipeng-Xu-4">
-    <img align="left" alt="ResearchGate" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/researchgate.svg" />
-  </a>
-  <a href="https://www.linkedin.com/in/weipeng-xu-201028403">
-  <img align="left" alt="LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" />
-  </a>
-  <a href="mailto:me.xu@outlook.com">
-    <img align="left" alt="Outlook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/microsoftoutlook.svg" />
-  </a>
-</p>
-
-<!-- <p>🚀 From <a href="https://github.com/xwpken">xwpken</a></p> -->
+<div align="center">
+  <sub>Turning physical insight into differentiable computation.</sub>
+</div>
