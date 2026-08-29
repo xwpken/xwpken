@@ -11,7 +11,7 @@
 
 ## Hello, I'm Weipeng 👋
 
-I'm a PhD candidate in **Civil Engineering at [HKUST](https://hkust.edu.hk/)**, working on **differentiable physics** under the guidance of [Prof. Tianju Xue](https://scholar.google.com/citations?user=F2g2u0wAAAAJ).
+I'm a PhD candidate in Civil Engineering at [HKUST](https://hkust.edu.hk/), working on **differentiable physics** under the guidance of [Prof. Tianju Xue](https://scholar.google.com/citations?user=F2g2u0wAAAAJ).
 
 I develop computational methods that connect physical modeling, numerical simulation, and gradient-based optimization. My current interests span nonlinear mechanics, inverse problems, scientific machine learning, and robotic systems.
 
@@ -26,14 +26,14 @@ I develop computational methods that connect physical modeling, numerical simula
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&theme=github_dark&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&theme=default&bg_color=00000000" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=xwpken&show_icons=true&hide_border=true&rank_icon=github&bg_color=00000000" alt="Weipeng's GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xwpken&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xwpken&theme=github" />
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=xwpken&theme=github" alt="Weipeng's GitHub stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&theme=github_dark&bg_color=00000000" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&theme=default&bg_color=00000000" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xwpken&layout=compact&hide_border=true&bg_color=00000000" alt="Most used languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xwpken&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xwpken&theme=github" />
+    <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=xwpken&theme=github" alt="Most used languages by repository" />
   </picture>
 </div>
 
