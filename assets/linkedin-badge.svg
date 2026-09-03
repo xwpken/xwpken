@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="119" height="28" viewBox="0 0 119 28" role="img" aria-labelledby="title">
   <title id="title">LinkedIn</title>
-  <rect width="119" height="28" rx="3" fill="#0A66C2"/>
+  <rect width="119" height="28" fill="#0A66C2"/>
   <g fill="#FFFFFF">
     <rect x="11" y="11.2" width="3.2" height="9.8" rx=".4"/>
     <circle cx="12.6" cy="7.8" r="1.9"/>

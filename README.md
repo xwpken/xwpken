@@ -45,7 +45,3 @@ I'm always happy to discuss research, open-source scientific software, or potent
 <p>
   <a href="mailto:wxuby@connect.ust.hk"><img src="https://img.shields.io/badge/Email-wxuby%40connect.ust.hk-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
 </p>
-
-<div align="center">
-  <sub>Turning physical insight into differentiable computation.</sub>
-</div>
