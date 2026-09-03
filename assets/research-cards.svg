@@ -72,8 +72,8 @@
     </g>
     <text x="48" y="149" fill="#F8FAFC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="25" font-weight="700">Differentiable Physics</text>
     <text x="48" y="184" fill="#A9C7D8" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="15">
-      <tspan x="48">End-to-end differentiable simulators</tspan>
-      <tspan x="48" dy="23">for analysis, design, and discovery.</tspan>
+      <tspan x="48">Gradient-enabled physical simulation</tspan>
+      <tspan x="48" dy="23">for inference and optimization.</tspan>
     </text>
     <g font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="650" letter-spacing=".7">
       <rect x="48" y="244" width="93" height="28" rx="14" fill="#38BDF8" fill-opacity=".12" /><text x="64" y="263" fill="#7DD3FC">AUTODIFF</text>
@@ -98,12 +98,12 @@
     </g>
     <text x="444" y="149" fill="#F8FAFC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="25" font-weight="700">Computational Mechanics</text>
     <text x="444" y="184" fill="#B8B9D9" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="15">
-      <tspan x="444">Finite element methods for nonlinear</tspan>
-      <tspan x="444" dy="23">and large-deformation problems.</tspan>
+      <tspan x="444">Numerical methods for nonlinear</tspan>
+      <tspan x="444" dy="23">and large-deformation mechanics.</tspan>
     </text>
     <g font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="650" letter-spacing=".7">
       <rect x="444" y="244" width="67" height="28" rx="14" fill="#818CF8" fill-opacity=".13" /><text x="461" y="263" fill="#A5B4FC">FEM</text>
-      <rect x="520" y="244" width="116" height="28" rx="14" fill="#C084FC" fill-opacity=".12" /><text x="536" y="263" fill="#D8B4FE">NONLINEAR</text>
+      <rect x="520" y="244" width="151" height="28" rx="14" fill="#C084FC" fill-opacity=".12" /><text x="536" y="263" fill="#D8B4FE">SOLID MECHANICS</text>
     </g>
   </g>
 
@@ -123,12 +123,12 @@
     </g>
     <text x="840" y="149" fill="#F8FAFC" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="25" font-weight="700">Inverse Design &amp; Control</text>
     <text x="840" y="184" fill="#B1CFCA" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="15">
-      <tspan x="840">Optimization, inference, and learning</tspan>
-      <tspan x="840" dy="23">for complex physical systems.</tspan>
+      <tspan x="840">Identifying, designing, and controlling</tspan>
+      <tspan x="840" dy="23">complex physical systems.</tspan>
     </text>
     <g font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="650" letter-spacing=".7">
       <rect x="840" y="244" width="117" height="28" rx="14" fill="#2DD4BF" fill-opacity=".12" /><text x="856" y="263" fill="#5EEAD4">OPTIMIZATION</text>
-      <rect x="966" y="244" width="85" height="28" rx="14" fill="#A3E635" fill-opacity=".11" /><text x="983" y="263" fill="#BEF264">CONTROL</text>
+      <rect x="966" y="244" width="101" height="28" rx="14" fill="#A3E635" fill-opacity=".11" /><text x="983" y="263" fill="#BEF264">INFERENCE</text>
     </g>
   </g>
 </svg>

@@ -93,8 +93,8 @@
       <text class="intro" x="72" y="84" fill="#7DD3FC" font-size="17" font-weight="650" letter-spacing="4">DIFFERENTIABLE PHYSICS · COMPUTATIONAL MECHANICS</text>
       <text class="intro name" x="68" y="174" fill="#F8FAFC" font-size="68" font-weight="750" letter-spacing="-2">Weipeng Xu</text>
       <rect class="accent-line" x="72" y="204" width="104" height="5" rx="2.5" fill="url(#accent)" />
-      <text class="intro tagline" x="72" y="257" fill="#CBD5E1" font-size="23" font-weight="450" letter-spacing="0.15">Physics, computation, and optimization.</text>
-      <text class="intro topics" x="72" y="306" fill="#94A3B8" font-size="16" font-weight="450" letter-spacing="1.2">SIMULATION · INVERSE PROBLEMS · SCIENTIFIC MACHINE LEARNING · ROBOTICS</text>
+      <text class="intro tagline" x="72" y="257" fill="#CBD5E1" font-size="23" font-weight="450" letter-spacing="0.15">PhD Candidate in Civil Engineering at HKUST</text>
+      <text class="intro topics" x="72" y="306" fill="#94A3B8" font-size="17" font-weight="450" letter-spacing="0.4">Differentiable simulation for analysis, design, and control.</text>
     </g>
   </g>
 </svg>
