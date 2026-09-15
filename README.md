@@ -17,11 +17,7 @@ I'm a PhD candidate in Civil Engineering at [HKUST](https://hkust.edu.hk/), work
 
 ## Research interests
 
-My current interests span nonlinear finite element analysis, differentiable programming, and inverse design and control. I am particularly interested in nonlinear and large-deformation analysis for robotic systems.
-
-<div align="center">
-  <img src="./assets/research-cards.svg" width="100%" alt="Research interests: differentiable physics, computational mechanics, and inverse design and control" />
-</div>
+My current interests span nonlinear finite element analysis, differentiable programming, and inverse design and control. I am particularly interested in nonlinear and large-deformation analysis.
 
 ## GitHub at a glance
 
