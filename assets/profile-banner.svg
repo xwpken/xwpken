@@ -1,100 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Weipeng Xu</title>
-  <desc id="desc">Differentiable Physics and Computational Mechanics</desc>
-
+  <title id="title">Weipeng Xu — chalkboard sketch</title>
+  <desc id="desc">A hand-drawn chalkboard research profile banner</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071426" />
-      <stop offset="0.52" stop-color="#102A4C" />
-      <stop offset="1" stop-color="#0B5D67" />
-    </linearGradient>
-    <radialGradient id="glow" cx="75%" cy="42%" r="58%">
-      <stop offset="0" stop-color="#38BDF8" stop-opacity="0.28" />
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0" />
-    </radialGradient>
-    <linearGradient id="accent" x1="0" x2="1">
-      <stop offset="0" stop-color="#38BDF8" />
-      <stop offset="1" stop-color="#5EEAD4" />
-    </linearGradient>
-    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
-      <path d="M38 0H0V38" fill="none" stroke="#94A3B8" stroke-opacity="0.09" stroke-width="1" />
-    </pattern>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="18" />
-    </filter>
-    <clipPath id="round">
-      <rect width="1200" height="360" rx="28" />
-    </clipPath>
+    <filter id="chalk" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".12" numOctaves="2" seed="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.7"/></filter>
+    <filter id="board"><feTurbulence type="fractalNoise" baseFrequency=".3" numOctaves="3" seed="15" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer><feBlend in="SourceGraphic" mode="screen"/></filter>
+    <clipPath id="clip"><rect width="1200" height="360" rx="26"/></clipPath>
     <style>
-      .mesh-flow { stroke-dasharray: 7 11; animation: mesh-flow 8s linear infinite; }
-      .contour-a { stroke-dasharray: 18 12; animation: contour-flow 7s linear infinite; }
-      .contour-b { stroke-dasharray: 10 14; animation: contour-flow 10s linear infinite reverse; }
-      .node { animation: node-pulse 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .node:nth-child(3n + 1) { animation-delay: -0.7s; }
-      .node:nth-child(3n + 2) { animation-delay: -1.5s; }
-      .node:nth-child(3n) { animation-delay: -2.3s; }
-      .orb-a { animation: drift-a 9s ease-in-out infinite alternate; }
-      .orb-b { animation: drift-b 12s ease-in-out infinite alternate; }
-      .accent-line { animation: accent-pulse 3.4s ease-in-out infinite; transform-origin: left center; }
-      .intro { animation: text-breathe 5s ease-in-out infinite; }
-      .name { animation-delay: -1s; }
-      .tagline { animation-delay: -2s; }
-      .topics { animation-delay: -3s; }
-
-      @keyframes mesh-flow { to { stroke-dashoffset: -180; } }
-      @keyframes contour-flow { to { stroke-dashoffset: -240; } }
-      @keyframes node-pulse {
-        0%, 100% { opacity: .55; transform: scale(.75); }
-        50% { opacity: 1; transform: scale(1.7); }
-      }
-      @keyframes drift-a { to { transform: translate(-45px, 30px) scale(1.12); } }
-      @keyframes drift-b { to { transform: translate(55px, -20px) scale(.9); } }
-      @keyframes accent-pulse {
-        0%, 100% { opacity: .75; transform: scaleX(.72); }
-        50% { opacity: 1; transform: scaleX(1); }
-      }
-      @keyframes text-breathe { 0%,100% { opacity: .92; } 50% { opacity: 1; } }
-      @media (prefers-reduced-motion: reduce) {
-        * { animation: none !important; }
-      }
+      .edge{stroke-dasharray:12 7;animation:dash 6s linear infinite}
+      .node{animation:blink 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .node:nth-child(3n+1){animation-delay:-1s}.node:nth-child(3n+2){animation-delay:-2s}
+      .element-a,.element-b,.element-c,.element-d{animation:float 4.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .element-b{animation-delay:-1.1s}.element-c{animation-delay:-2.2s}.element-d{animation-delay:-3.3s}
+      .face{animation:face 3.4s ease-in-out infinite}.face-b{animation-delay:-1.7s}
+      @keyframes dash{to{stroke-dashoffset:-114}}
+      @keyframes blink{50%{opacity:.42;transform:scale(.72)}}
+      @keyframes float{50%{transform:translateY(-7px) rotate(1.2deg)}}
+      @keyframes face{50%{fill-opacity:.28}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-
-  <g clip-path="url(#round)">
-    <rect width="1200" height="360" fill="url(#background)" />
-    <rect width="1200" height="360" fill="url(#glow)" />
-    <rect width="1200" height="360" fill="url(#grid)" />
-
-    <circle class="orb-a" cx="1010" cy="82" r="116" fill="#22D3EE" opacity="0.08" filter="url(#blur)" />
-    <circle class="orb-b" cx="885" cy="305" r="132" fill="#2DD4BF" opacity="0.08" filter="url(#blur)" />
-
-    <!-- A finite-element-inspired mesh -->
-    <g class="mesh-flow" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1.2">
-      <path d="M738 50L835 28L928 67L1032 37L1136 78M738 50L778 137L882 108L974 151L1081 118L1136 78M778 137L720 223L829 252L882 108M882 108L829 252L952 221L974 151M974 151L952 221L1060 286L1081 118M1081 118L1172 190L1060 286M720 223L756 332L829 252M829 252L918 337L952 221M952 221L918 337L1060 286L1141 342" />
-      <path d="M738 50L882 108L928 67M835 28L882 108M928 67L974 151L1032 37M1032 37L1081 118M1136 78L1172 190M720 223L829 252L778 137M952 221L1081 118M1060 286L1172 190M756 332L918 337M918 337L1141 342" />
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="#173B37" filter="url(#board)"/>
+    <path d="M0 326C242 315 421 344 650 322C864 302 1051 334 1200 312" fill="none" stroke="#E8DDC3" stroke-opacity=".1" stroke-width="3" filter="url(#chalk)"/>
+    <g font-family="'Comic Sans MS','Bradley Hand',cursive" filter="url(#chalk)">
+      <text x="72" y="79" fill="#F3C969" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="700" letter-spacing="3.1">DIFFERENTIABLE PHYSICS · COMPUTATIONAL MECHANICS</text>
+      <text x="68" y="184" fill="#F4EBD8" font-family="Georgia,'Times New Roman',serif" font-size="76" font-weight="700">Weipeng Xu</text>
+      <text x="72" y="257" fill="#F0E6CF" font-family="ui-sans-serif,system-ui,sans-serif" font-size="22">PhD Candidate in Civil Engineering at HKUST</text>
     </g>
 
-    <g fill="#BAE6FD">
-      <circle class="node" cx="738" cy="50" r="3" /><circle class="node" cx="835" cy="28" r="3" /><circle class="node" cx="928" cy="67" r="3" />
-      <circle class="node" cx="1032" cy="37" r="3" /><circle class="node" cx="1136" cy="78" r="3" /><circle class="node" cx="778" cy="137" r="3" />
-      <circle class="node" cx="882" cy="108" r="3" /><circle class="node" cx="974" cy="151" r="3" /><circle class="node" cx="1081" cy="118" r="3" />
-      <circle class="node" cx="720" cy="223" r="3" /><circle class="node" cx="829" cy="252" r="3" /><circle class="node" cx="952" cy="221" r="3" />
-      <circle class="node" cx="1172" cy="190" r="3" /><circle class="node" cx="1060" cy="286" r="3" /><circle class="node" cx="756" cy="332" r="3" />
-      <circle class="node" cx="918" cy="337" r="3" /><circle class="node" cx="1141" cy="342" r="3" />
-    </g>
+    <!-- A small hand-drawn catalogue of common 2D and 3D finite elements. -->
+    <g transform="translate(720 46)" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#chalk)">
+      <text x="26" y="24" fill="#7DD3FC" stroke="none" font-family="'Comic Sans MS',cursive" font-size="16">2D</text>
+      <text x="286" y="24" fill="#EF8C7F" stroke="none" font-family="'Comic Sans MS',cursive" font-size="16">3D</text>
 
-    <!-- Contour curves -->
-    <g fill="none" stroke-linecap="round">
-      <path class="contour-a" d="M686 299C752 275 783 282 839 302C908 327 967 316 1028 294C1085 273 1133 276 1190 303" stroke="#5EEAD4" stroke-opacity="0.55" stroke-width="2" />
-      <path class="contour-b" d="M675 318C742 294 786 305 838 323C899 344 967 340 1034 314C1091 292 1142 299 1198 324" stroke="#38BDF8" stroke-opacity="0.38" stroke-width="1.5" />
-    </g>
+      <!-- TRI3 -->
+      <g transform="translate(18 38)"><g class="element-a">
+        <path class="face" d="M8 79L55 4L105 78Z" fill="#7DD3FC" fill-opacity=".1" stroke="none"/>
+        <path class="edge" d="M8 79L55 4L105 78Z" stroke="#F4EBD8" stroke-width="2.2"/>
+        <g fill="#F4EBD8" stroke="none"><circle class="node" cx="8" cy="79" r="4"/><circle class="node" cx="55" cy="4" r="4"/><circle class="node" cx="105" cy="78" r="4"/></g>
+        <text x="37" y="102" fill="#7DD3FC" stroke="none" font-family="'Comic Sans MS',cursive" font-size="14">TRI3</text>
+      </g></g>
 
-    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-      <text class="intro" x="72" y="84" fill="#7DD3FC" font-size="17" font-weight="650" letter-spacing="4">DIFFERENTIABLE PHYSICS · COMPUTATIONAL MECHANICS</text>
-      <text class="intro name" x="68" y="174" fill="#F8FAFC" font-size="68" font-weight="750" letter-spacing="-2">Weipeng Xu</text>
-      <rect class="accent-line" x="72" y="204" width="104" height="5" rx="2.5" fill="url(#accent)" />
-      <text class="intro tagline" x="72" y="257" fill="#CBD5E1" font-size="23" font-weight="450" letter-spacing="0.15">PhD Candidate in Civil Engineering at HKUST</text>
-      <text class="intro topics" x="72" y="306" fill="#94A3B8" font-size="17" font-weight="450" letter-spacing="0.4">Differentiable simulation for analysis, design, and control.</text>
+      <!-- QUAD4 -->
+      <g transform="translate(130 40)"><g class="element-b">
+        <path class="face face-b" d="M5 10L98 2L91 80L14 75Z" fill="#7DD3FC" fill-opacity=".08" stroke="none"/>
+        <path class="edge" d="M5 10L98 2L91 80L14 75Z" stroke="#F4EBD8" stroke-width="2.2"/>
+        <g fill="#F4EBD8" stroke="none"><circle class="node" cx="5" cy="10" r="4"/><circle class="node" cx="98" cy="2" r="4"/><circle class="node" cx="91" cy="80" r="4"/><circle class="node" cx="14" cy="75" r="4"/></g>
+        <text x="32" y="102" fill="#7DD3FC" stroke="none" font-family="'Comic Sans MS',cursive" font-size="14">QUAD4</text>
+      </g></g>
+
+      <!-- TET4 -->
+      <g transform="translate(237 37)"><g class="element-c">
+        <path class="face" d="M8 79L76 82L45 9Z" fill="#EF8C7F" fill-opacity=".08" stroke="none"/>
+        <path class="face face-b" d="M45 9L76 82L106 39Z" fill="#EF8C7F" fill-opacity=".055" stroke="none"/>
+        <path class="edge" d="M8 79L76 82L45 9ZM45 9L106 39L76 82" stroke="#F4EBD8" stroke-width="2.1"/>
+        <path d="M8 79L106 39" stroke="#EF8C7F" stroke-width="1.8" stroke-dasharray="5 6"/>
+        <g fill="#F4EBD8" stroke="none"><circle class="node" cx="8" cy="79" r="4"/><circle class="node" cx="76" cy="82" r="4"/><circle class="node" cx="45" cy="9" r="4"/><circle class="node" cx="106" cy="39" r="4"/></g>
+        <text x="38" y="102" fill="#EF8C7F" stroke="none" font-family="'Comic Sans MS',cursive" font-size="14">TET4</text>
+      </g></g>
+
+      <!-- HEX8 -->
+      <g transform="translate(349 34)"><g class="element-d">
+        <path class="face face-b" d="M12 28L70 20L91 4L35 10Z" fill="#EF8C7F" fill-opacity=".08" stroke="none"/>
+        <path class="edge" d="M12 28L70 20L70 82L12 89ZM35 10L91 4L91 66L35 73ZM12 28L35 10M70 20L91 4M70 82L91 66M12 89L35 73" stroke="#F4EBD8" stroke-width="2.1"/>
+        <g fill="#F4EBD8" stroke="none"><circle class="node" cx="12" cy="28" r="3.8"/><circle class="node" cx="70" cy="20" r="3.8"/><circle class="node" cx="70" cy="82" r="3.8"/><circle class="node" cx="12" cy="89" r="3.8"/><circle class="node" cx="35" cy="10" r="3.8"/><circle class="node" cx="91" cy="4" r="3.8"/><circle class="node" cx="91" cy="66" r="3.8"/><circle class="node" cx="35" cy="73" r="3.8"/></g>
+        <text x="34" y="108" fill="#EF8C7F" stroke="none" font-family="'Comic Sans MS',cursive" font-size="14">HEX8</text>
+      </g></g>
+
+      <path d="M18 171C116 157 184 176 271 164C345 154 387 165 436 157" stroke="#F4EBD8" stroke-opacity=".26" stroke-width="1.6"/>
+      <text x="133" y="207" fill="#F4EBD8" stroke="none" font-family="'Comic Sans MS','Bradley Hand',cursive" font-size="22" letter-spacing="1">finite element method</text>
     </g>
   </g>
 </svg>
